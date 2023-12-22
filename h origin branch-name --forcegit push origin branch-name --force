@@ -1,0 +1,166 @@
+[33mcommit d47b5af7a53bd8026b47b1e0ec9d45aa05a7c9f7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Sulaslan Setiawan <sulaslan.setiawan@balitower.co.id>
+Date:   Fri Dec 22 10:37:09 2023 +0700
+
+    update readme file
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 37a3144..903c372 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,155 +1 @@[m
+ # React JS Modern 3D Portfolio using Three.js[m
+[31m-[m
+[31m-![React JS Modern 3D Portfolio using Three.js](/.github/images/img_main.png "React JS Modern 3D Portfolio using Three.js")[m
+[31m-[m
+[31m-[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/Technical-Shubham-tech "Ask Me Anything!")[m
+[31m-[![GitHub license](https://img.shields.io/github/license/Technical-Shubham-tech/3d-portfolio)](https://github.com/Technical-Shubham-tech/3d-portfolio/blob/main/LICENSE.md "GitHub license")[m
+[31m-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Technical-Shubham-tech/3d-portfolio/commits/main "Maintenance")[m
+[31m-[![GitHub branches](https://badgen.net/github/branches/Technical-Shubham-tech/3d-portfolio)](https://github.com/Technical-Shubham-tech/3d-portfolio/branches "GitHub branches")[m
+[31m-[![Github commits](https://badgen.net/github/commits/Technical-Shubham-tech/3d-portfolio/main)](https://github.com/Technical-Shubham-tech/3d-portfolio/commits "Github commits")[m
+[31m-[![Netlify Status](https://api.netlify.com/api/v1/badges/5c77ba92-e2f5-468e-99f1-3543906a90cb/deploy-status)](https://65350cf7d9bdce5e198c93a0--shubam.netlify.app/ "Netlify Status")[m
+[31m-[![GitHub issues](https://img.shields.io/github/issues/Technical-Shubham-tech/3d-portfolio)](https://github.com/Technical-Shubham-tech/3d-portfolio/issues "GitHub issues")[m
+[31m-[![GitHub pull requests](https://img.shields.io/github/issues-pr/Technical-Shubham-tech/3d-portfolio)](https://github.com/Technical-Shubham-tech/3d-portfolio/pulls "GitHub pull requests")[m
+[31m-[m
+[31m-## ⚠️ Before you start[m
+[31m-[m
+[31m-1. Make sure **Git** and **NodeJS** is installed[m
+[31m-2. Clone this repository to your local computer.[m
+[31m-3. Create .env file in root folder.[m
+[31m-4. Contents of **.env**:[m
+[31m-[m
+[31m-```[m
+[31m-VITE_APP_SERVICE_ID=XXXXXXXXXXXXXXXX[m
+[31m-VITE_APP_TEMPLATE_ID=XXXXXXXXXXXXXXXX[m
+[31m-VITE_APP_EMAILJS_KEY=XXXXXXXXXXXXXXXX[m
+[31m-VITE_APP_EMAILJS_RECIEVER=your@email.com[m
+[31m-```[m
+[31m-[m
+[31m-5. Open terminal in root directory. Run `npm install` or `yarn install`.[m
+[31m-[m
+[31m-6. Create new account in [EmailJS](emailjs.com "EmailJS")[m
+[31m-[m
+[31m-7. From dashboard Choose Email Services > Add New Service and connect your mail to emailjs.[m
+[31m-[m
+[31m-**NOTE:** Make Sure you type same email in `VITE_APP_EMAILJS_RECIEVER` in `.env`[m
+[31m-[m
+[31m-8. Once, New service is configured, copy your **service id** to `VITE_APP_SERVICE_ID`[m
+[31m-[m
+[31m-9. Now, go to Email Templates > Create New Template to create your mail template. Once it is done, you can copy **Template ID** to `VITE_APP_TEMPLATE_ID`[m
+[31m-[m
+[31m-10. To get your **Public Key**, click on your username on navbar and go to account settings > Copy Public Key to `VITE_APP_EMAILJS_KEY`[m
+[31m-[m
+[31m-![Copy public key](/.github/images/step_emailjs.png "Copy public key")[m
+[31m-[m
+[31m-11. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `yarn run dev`. The app is created using vite.[m
+[31m-[m
+[31m-**NOTE:** Make sure you don't share these keys publicaly.[m
+[31m-[m
+[31m-## :camera: Screenshots:[m
+[31m-[m
+[31m-![Showcase your skills](/.github/images/img1.png "Showcase your skills")[m
+[31m-[m
+[31m-![Showcase your projects](/.github/images/img2.png "Showcase your projects")[m
+[31m-[m
+[31m-![Modern UI/UX](/.github/images/img3.png "Modern UI/UX")[m
+[31m-[m
+[31m-![Functional Contact form](/.github/images/img4.png "Functional Contact form")[m
+[31m-[m
+[31m-## :gear: Built with[m
+[31m-[m
+[31m-[<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" width="150" />](https://reactjs.org/ "React JS")[m
+[31m-[m
+[31m-[<img src="https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white" width="150" />](https://threejs.org/ "Three JS")[m
+[31m-[m
+[31m-[<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />](https://tailwindcss.com/ "Tailwind CSS")[m
+[31m-[m
+[31m-[<img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="Built with Love">](https://github.com/Technical-Shubham-tech/ "Built with Love")[m
+[31m-[m
+[31m-## :wrench: Stats[m
+[31m-[m
+[31m-![Stats for this App](/.github/images/stats.svg "Stats for this App")[m
+[31m-[m
+[31m-## :raised_hands: Contribute[m
+[31m-[m
+[31m-You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.[m
+[31m-[m
+[31m-## Buy Me a Coffee 🍺[m
+[31m-[m
+[31m-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/sanidhy "Buy me a Coffee")[m
+[31m-[m
+[31m-## :rocket: Follow Me[m
+[31m-[m
+[31m-[![GitHub followers](https://img.shields.io/github/followers/Technical-Shubham-tech?style=social&label=Follow&maxAge=2592000)](https://github.com/Technical-Shubham-tech "Follow Me")[m
+[31m-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FTechnical-Shubham-tech%2Fmedical-chat-app "Tweet")[m
+[31m-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCNAz_hUVBG2ZUN8TVm0bmYw "Subscribe my Channel")[m
+[31m-[m
+[31m-## :star: Give A Star[m
+[31m-[m
+[31m-You can also give this repository a star to show more people and they can use this repository.[m
+[31m-[m
+[31m-## :books: Available Scripts[m
+[31m-[m
+[31m-In the project directory, you can run:[m
+[31m-[m
+[31m-### `yarn run dev`[m
+[31m-[m
+[31m-Runs the app in the development mode.\[m
+[31m-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.[m
+[31m-[m
+[31m-The page will reload when you make changes.\[m
+[31m-You may also see any lint errors in the console.[m
+[31m-[m
+[31m-### `yarn test`[m
+[31m-[m
+[31m-Launches the test runner in the interactive watch mode.\[m
+[31m-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.[m
+[31m-[m
+[31m-### `yarn run build`[m
+[31m-[m
+[31m-Builds the app for production to the `dist` folder.\[m
+[31m-It correctly bundles React in production mode and optimizes the build for the best performance.[m
+[31m-[m
+[31m-The build is minified and the filenames include the hashes.\[m
+[31m-Your app is ready to be deployed![m
+[31m-[m
+[31m-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.[m
+[31m-[m
+[31m-### `yarn eject`[m
+[31m-[m
+[31m-**Note: this is a one-way operation. Once you `eject`, you can't go back!**[m
+[31m-[m
+[31m-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.[m
+[31m-[m
+[31m-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.[m
+[31m-[m
+[31m-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.[m
+[31m-[m
+[31m-## :page_with_curl: Learn More[m
+[31m-[m
+[31m-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).[m
+[31m-[m
+[31m-To learn React, check out the [React documentation](https://reactjs.org/).[m
+[31m-[m
+[31m-### Code Splitting[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)[m
+[31m-[m
+[31m-### Analyzing the Bundle Size[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)[m
+[31m-[m
+[31m-### Making a Progressive Web App[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)[m
+[31m-[m
+[31m-### Advanced Configuration[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)[m
+[31m-[m
+[31m-### Deployment[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)[m
+[31m-[m
+[31m-### `yarn run build` fails to minify[m
+[31m-[m
+[31m-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)[m
